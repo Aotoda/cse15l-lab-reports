@@ -27,4 +27,4 @@
 2. When you're done, don't forget to log out using Ctrl + D or the command `exit`.
 
 
-Lab Group Doc Links: tinyurl.com/15Lw23-shared-lab-group-docs
+Lab Group Doc Links: https://tinyurl.com/15Lw23-shared-lab-group-docs
