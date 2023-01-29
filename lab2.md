@@ -40,3 +40,8 @@ class StringServer {
 }
 
 ```
+
+## `/add-message`
+![image](https://user-images.githubusercontent.com/116617731/215346410-2f04494e-844c-4591-a842-0af1e0b0409f.png)
+![image](https://user-images.githubusercontent.com/116617731/215346430-bfd1afe4-430a-45eb-bf8f-951e60e86e43.png)
+
