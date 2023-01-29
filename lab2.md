@@ -1,5 +1,5 @@
 ## Lab Report 2
-### Part1
+### Part 1
 #### `StringServer.java` code
 ```
 import java.io.IOException;
