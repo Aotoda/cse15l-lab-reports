@@ -50,4 +50,56 @@ Both /add-message calls are processed by the handleRequest(url) method which in 
 
 The value of the string changes when the parameter is concatenated to it to be displayed.
 
-### Part 2
+### Part 2: reverseInPlace
+#### Failure-inducing Test
+```
+  @Test 
+	public void testReverseInPlacex() {
+    int[] input1 = { 3 , 2 , 1 , 0 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 0, 1 , 2 , 3 }, input1);
+	}
+```
+
+#### Non-failure-inducing test
+```
+	@Test 
+	public void testReverseInPlace() {
+    int[] input1 = { 3 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 3 }, input1);
+	}
+```
+
+#### Symptoms
+![image](https://user-images.githubusercontent.com/116617731/215539619-8d241d9c-08ef-4023-b7d4-8a39443f2b23.png)
+(Failure-inducing)
+
+![image](https://user-images.githubusercontent.com/116617731/215539460-0d8cb826-e32b-406f-930c-0785077c4fa0.png)
+(Non-failure-inducing)
+
+#### Bug and Fix
+Old code:
+```
+  static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }
+```
+
+New code:
+```
+  static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length/2; i += 1) {
+      int hold = arr[i];
+      arr[i] = arr[arr.length-1-i];
+      arr[arr.length-1-i] = hold;
+    }
+  }
+```
+
+The new code adds a "hold" variable which can hold the value of the left-of-center variables as they are overwritten so that they can be accordingly assigned to the right-of-center variables.
+
+### Part 3
+I had no idea how to manipulate or use let alone create localhost servers before the last few labs. Now I know the basics of how they work, and can create and modify them myself in java files.
