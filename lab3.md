@@ -1,6 +1,6 @@
 ## Lab Report 3
 ### sources
-I sourced all my answers, using ChatGPT for the first time. Now I'm scared about my future employment prospects.
+I sourced all my answers using ChatGPT for the first time. Now I'm scared about my future employment prospects.
 <img width="578" alt="image" src="https://user-images.githubusercontent.com/116617731/218373111-ca88af80-19a3-4c22-9caa-e8832b449823.png">
 
 ### grep command-line options
