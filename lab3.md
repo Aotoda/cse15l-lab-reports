@@ -4,6 +4,7 @@ I sourced all my answers using ChatGPT for the first time. Now I'm scared about 
 <img width="578" alt="image" src="https://user-images.githubusercontent.com/116617731/218373111-ca88af80-19a3-4c22-9caa-e8832b449823.png">
 
 ### grep command-line options
+Note: I swapped out large chunks of text with ellipses to improve readability.
 #### `-r`
 The commonly used `-r` option makes grep search recursively through subdirectories.
 This option is possibly the most useful as otherwise one might have to tediously check subdirectories one-by-one.
