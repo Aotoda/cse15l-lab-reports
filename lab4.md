@@ -1,5 +1,6 @@
 ## Lab Report 4
-### <Ctrl> + R
+### `<Ctrl> + R`
+
 
 ### grep command-line options
 Note: I swapped out large chunks of text with ellipses to improve readability.
