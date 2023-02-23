@@ -10,7 +10,7 @@ Delete the last fork you made in the repository settings, and fork the lab repos
 <img width="557" alt="image" src="https://user-images.githubusercontent.com/116617731/220813822-dfd2ac6c-4b41-49a6-8c1e-ec2bd444c68b.png">
 <img width="114" alt="image" src="https://user-images.githubusercontent.com/116617731/220813887-77a77812-8c49-4c55-b4ad-f1deb3cfccbd.png">
 
-Step 3 is to start the timer.
+**Step 3** is to start the timer.
 
 #### Step 4 (Log-in)
 Keys pressed:
