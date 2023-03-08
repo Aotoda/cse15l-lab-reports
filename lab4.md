@@ -13,6 +13,8 @@ Delete the last fork you made in the repository settings, and fork the lab repos
 _Step 3_ is to start the timer.
 
 #### Step 4: Log-in
+<img width="426" alt="image" src="https://user-images.githubusercontent.com/116617731/223855143-eebdee7f-1b89-4028-a105-9936253880b5.png">
+
 Keys pressed:
 ```
 <Ctrl> + R
@@ -25,6 +27,8 @@ ssh cs15lwi23abu@ieng6.ucsd.edu
 ```
 
 #### Step 5: Clone the fork
+<img width="396" alt="image" src="https://user-images.githubusercontent.com/116617731/223855261-4442a581-5795-4cc6-b117-fd585159ef85.png">
+
 Keys pressed:
 ```
 <Ctrl> + R
@@ -37,8 +41,14 @@ git clone git@github.com:Aotoda/lab7.git
 ```
 
 #### Step 6: Run the tests
+<img width="750" alt="image" src="https://user-images.githubusercontent.com/116617731/223857611-12111d7e-b614-4788-998b-54c5600eaa4e.png">
+
 Keys pressed:
 ```
+<Ctrl> + R
+cd
+<Enter>
+
 <Ctrl> + R
 javac
 <Enter>
@@ -47,13 +57,18 @@ javac
 java 
 <Enter>
 ```
-Use `<Ctrl> + R` to access the previously issued javac and java commands:
+Use `<Ctrl> + R` to access the previously issued cd, javac and java commands:
 ```
+cd lab7
 javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
 java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples 
 ```
 
 #### Step 7: Edit the code
+<img width="318" alt="image" src="https://user-images.githubusercontent.com/116617731/223857061-921c4d73-0fc8-467d-89d7-b1871bc4e855.png">
+
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/116617731/223856751-4ee214d8-c092-497b-a70d-d9db83702391.png">
+
 Keys pressed:
 ```
 <Ctrl> + R
@@ -66,6 +81,7 @@ nano
 <Enter>
 <down><down>
 <right><right><right><right><right><right><right><right>
+
 <Backspace>
 2
 
@@ -80,13 +96,15 @@ Use `<Ctrl> + R` to access the previously issued nano command:
 nano ListExamples.java
 ```
 
-Use nano editor shortcuts to search for the unique contents of line 41, pasting from the clipboard.
-Code in clipboard: `result.add(list2.get(index2));`
-Arrow-key to the faulty code in line 43, column 12, and chang `index1` to `index2`.
+Use nano editor shortcuts to search for the unique contents of line 40, pasting from the clipboard.
+Code in clipboard: `while(index2 < list2.size())`
+Arrow-key to the faulty code in line 43, column 12, and change `index1` to `index2`.
 
 Use more nano editor shortcuts to save the changes and exit the editor.
 
 #### Step 8: Run the tests (again)
+<img width="749" alt="image" src="https://user-images.githubusercontent.com/116617731/223857930-9befaa59-88ad-4d90-ba1b-bb7f80b3dfad.png">
+
 Keys pressed:
 ```
 <Ctrl> + R
@@ -104,6 +122,8 @@ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnit
 ```
 
 #### Step 9: Commit and push the changes
+<img width="381" alt="image" src="https://user-images.githubusercontent.com/116617731/223858424-f83d007a-e9b3-4b55-85a5-d290ed91062f.png">
+
 Keys pressed:
 ```
 <Ctrl> + R
