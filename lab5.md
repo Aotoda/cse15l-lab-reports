@@ -74,7 +74,6 @@ Running Bash Script 2 requires no further input using the following command:
 ```
 bash lab5cldq1.sh
 ```
-<img width="960" alt="image" src="https://user-images.githubusercontent.com/116617731/224517751-5457c4ff-acbd-4f58-95d5-bbbb0a12fb15.png">
 <img width="960" alt="image" src="https://user-images.githubusercontent.com/116617731/224517755-88afa713-d8fa-4b48-b74c-ddde21675976.png">
 
 Completing the lab 4 tasks.
