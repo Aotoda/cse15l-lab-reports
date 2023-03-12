@@ -11,6 +11,7 @@ nano lab5cldq2.sh
 
 #### Bash Script 1:
 <img width="960" alt="image" src="https://user-images.githubusercontent.com/116617731/224517681-7c92c818-9436-4d59-91db-564860dc4faf.png">
+
 ```
 git clone git@github.com:Aotoda/lab7.git
 
@@ -23,6 +24,7 @@ nano ListExamples.java
 
 #### Bash Script 2:
 <img width="960" alt="image" src="https://user-images.githubusercontent.com/116617731/224517689-117789c4-b3e5-4e89-a824-11e4664d4766.png">
+
 ```
 cd lab7
 
